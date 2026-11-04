@@ -1,76 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <script data-vibly-deployment-context>
-            globalThis.__VIBLY_DEPLOYMENT_ID__ = "227bdfc2-2927-4401-99d6-20371abf4087";
-        </script>
-        <meta charset="UTF-8"/>
-        <link rel="icon" href="/favicon.svg"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script data-vibly-translate-guard>
-            (function() {
-                if (typeof Node !== "function" || !Node.prototype || Node.prototype.__viblyTranslateGuard)
-                    return;
-                Object.defineProperty(Node.prototype, "__viblyTranslateGuard", {
-                    value: 1
-                });
-                var r = Node.prototype.removeChild;
-                Node.prototype.removeChild = function(c) {
-                    if (c && c.parentNode !== this) {
-                        return c;
-                    }
-                    return r.apply(this, arguments);
-                }
-                ;
-                var i = Node.prototype.insertBefore;
-                Node.prototype.insertBefore = function(n, e) {
-                    if (e && e.parentNode !== this) {
-                        return n;
-                    }
-                    return i.apply(this, arguments);
-                }
-                ;
-            }
-            )();
-        </script>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script data-vibly-translate-guard>(function(){if(typeof Node!=="function"||!Node.prototype||Node.prototype.__viblyTranslateGuard)return;Object.defineProperty(Node.prototype,"__viblyTranslateGuard",{value:1});var r=Node.prototype.removeChild;Node.prototype.removeChild=function(c){if(c&&c.parentNode!==this){return c;}return r.apply(this,arguments);};var i=Node.prototype.insertBefore;Node.prototype.insertBefore=function(n,e){if(e&&e.parentNode!==this){return n;}return i.apply(this,arguments);};})();</script>
         <title>Капитал будущего · AI — тренажёр биржи с ИИ-наставником</title>
-        <meta name="description" content="Интерактивный симулятор биржи с ИИ-наставником: тренируйся на исторических графиках, разбирай эмоциональные ошибки и готовься к настоящей бирже без риска."/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&subset=cyrillic" rel="stylesheet"/>
+        <meta name="description" content="Интерактивный симулятор биржи с ИИ-наставником: тренируйся на исторических графиках, разбирай эмоциональные ошибки и готовься к настоящей бирже без риска." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&subset=cyrillic" rel="stylesheet" />
         <script type="module" crossorigin src="assets/index-BAobyMH7.js"></script>
         <link rel="stylesheet" crossorigin href="assets/index-D3YKh0I4.css">
-        <script type="text/javascript" id="vaibly-metrika" data-vaibly-metrika>
-            (function(m, e, t, r, i, k, a) {
-                m[i] = m[i] || function() {
-                    (m[i].a = m[i].a || []).push(arguments)
-                }
-                ;
-                m[i].l = 1 * new Date();
-                for (var j = 0; j < document.scripts.length; j++) {
-                    if (document.scripts[j].src === r) {
-                        return;
-                    }
-                }
-                k = e.createElement(t),
-                a = e.getElementsByTagName(t)[0],
-                k.async = 1,
-                k.src = r,
-                a.parentNode.insertBefore(k, a)
-            }
-            )(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-            ym(109921793, "init", {
-                clickmap: true,
-                trackLinks: true,
-                accurateTrackBounce: true,
-                webvisor: true
-            });
-        </script>
-        <noscript>
-            <div>
-                <img src="https://mc.yandex.ru/watch/109921793" style="position:absolute;left:-9999px" alt=""/>
-            </div>
-        </noscript>
     </head>
     <body>
         <div id="root"></div>
